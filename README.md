@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MEA Annual Report 2025 — Secure RAG Chatbot
 
 A Retrieval-Augmented Generation (RAG) application for answering questions about the Ministry of External Affairs (MEA), Government of India, Annual Report 2025. The system combines document retrieval, semantic search, keyword search, reranking, evidence-grounded generation, citation validation, security guardrails, and evaluation to make answers more verifiable and reliable.
@@ -511,3 +512,6 @@ Use the official report and follow the source's applicable terms and attribution
 ---
 
 **Project status:** This README documents the intended architecture and the current NVIDIA-based implementation context. It does not certify that the application has passed every evaluation, security test, deployment check, or production acceptance criterion. Those results should be recorded after verification.
+=======
+# mea-rag-application
+>>>>>>> origin/main
