@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mea-annual-report-rag"
+version = "0.1.0"
+description = "Deployment-ready RAG chatbot for the MEA Annual Report 2025"
+requires-python = ">=3.13,<3.14"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
+
+[tool.setuptools.packages.find]
+include = [
+    "api*",
+    "core*",
+    "database*",
+    "ingestion*",
+    "retrieval*",
+    "graph*",
+    "generation*",
+    "guardrails*",
+    "evaluation*"
+]
